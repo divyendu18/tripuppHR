@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap");
+
+#nav {
+  position: fixed;
+  width: 100%;
+  background: paleturquoise;
+  z-index: 100;
+}
+
+#nav_brand {
+  padding: 10px;
+  margin-left: 3em;
+  color: orangered;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+}
+#nav_link {
+  color: white;
+  font-family: "Noto Serif", serif;
+  color: orangered;
+}
+#nav_button {
+  background-color: lightgrey;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-family: "Noto Serif", serif;
+  color: orangered;
+  border-radius: 20px;
+}
+#nav_button:hover {
+  padding: 10px;
+  background-color: paleturquoise;
+}

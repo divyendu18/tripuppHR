@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Playfair+Display:wght@700&display=swap");
+#landingContainer {
+  height: 80vh;
+  background: lightseagreen;
+  width: 100%;
+  border-radius: 50px;
+}
+#landing_head {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: normal;
+  color: darkslateblue;
+  font-family: "Grandstander", cursive;
+  font-family: "Playfair Display", serif;
+}
+#landing_content {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: normal;
+  color: black;
+  font-family: "Grandstander", cursive;
+  font-family: "Playfair Display", serif;
+}
+.searchbox {
+  background: white;
+  width: 40%;
+}
+#search {
+  border: none;
+}
+#btn {
+  background: blue;
+}
+#img {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.Icon {
+  display: flex;
+  justify-content: space-between;
+}
+.Icon > h5 {
+  font-size: 3em;
+}

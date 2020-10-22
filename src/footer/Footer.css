@@ -1,0 +1,23 @@
+.footer {
+  background: black;
+  padding: 10px;
+}
+.foot_list {
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+}
+.footCard__top > h5 {
+  color: #28abb9;
+  padding: 10px;
+}
+.footer_head {
+  color: cyan;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.foot_icon {
+  justify-content: space-evenly;
+  color: white;
+  list-style-type: none;
+}

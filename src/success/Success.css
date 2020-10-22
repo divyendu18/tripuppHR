@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap");
+.success > h3 {
+  text-align: center;
+  font-size: 5em;
+  color: whitesmoke;
+  line-height: 20px;
+  letter-spacing: normal;
+  font-family: "Grandstander", cursive;
+}
+
+.cardSuccess {
+  display: flex;
+  align-items: center;
+}

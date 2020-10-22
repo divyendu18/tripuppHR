@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap");
+.exams {
+  background: darkcyan;
+  border-radius: 600px 600px 0 0;
+}
+.exams > h3 {
+  text-align: center;
+  font-size: 5em;
+  color: whitesmoke;
+  line-height: 20px;
+  letter-spacing: normal;
+  font-family: "Grandstander", cursive;
+}
+
+.examCard {
+  border: 1px solid black;
+  height: 25em;
+  width: 80%;
+  padding: 30px 0px 55px 50px;
+  margin-bottom: 6px;
+  border-radius: 10px;
+  margin-left: 1em;
+  box-shadow: 0 8px 6px -6px red;
+  background: #a6f6f1;
+  justify-content: space-evenly;
+}
+
+.exam_bottom {
+  padding: 10px;
+  border: 1px solid darkcyan;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 10px;
+  margin-top: 5em;
+  margin-right: 35px;
+  text-align: center;
+}
+#examContent {
+  margin-top: 3em;
+}

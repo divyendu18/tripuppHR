@@ -1,0 +1,32 @@
+.testimonial {
+  background: #def3fb;
+}
+
+.testCard {
+  border: 1px solid black;
+  width: 100%;
+  padding: 27px 0px 50px 20px;
+  margin-bottom: 5em;
+  border-radius: 15px;
+  margin: 10px 0;
+  border: none;
+}
+
+.testCard__top {
+  display: flex;
+  align-items: center;
+}
+.testCard__bottom {
+  margin-left: 5.5em;
+  margin-top: 10px;
+}
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+.test_card {
+  border: 1px solid black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 10px;
+  padding: 10px;
+}
