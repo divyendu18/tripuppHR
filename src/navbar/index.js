@@ -8,14 +8,15 @@ class navbar extends Component {
         return (
             <div>
               <Navbar  expand="lg" id="nav">
-  <Navbar.Brand href="#home" id="nav_brand">Edutech</Navbar.Brand>
+  <Navbar.Brand href="#home" id="nav_brand">Redirekt</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto" >
-      <Nav.Link href="#home" id="nav_link">Boards<ExpandMoreIcon/></Nav.Link>
-      <Nav.Link href="#link" id="nav_link">Books<ExpandMoreIcon/></Nav.Link>
-      <Nav.Link href="#link" id="nav_link">Exams<ExpandMoreIcon/></Nav.Link>
-      <Nav.Link href="#link" id="nav_link">Why us?</Nav.Link>
+    <Nav.Link href="#home" id="nav_link">Medium Business<ExpandMoreIcon/></Nav.Link>
+      <Nav.Link href="#home" id="nav_link">Public Sector<ExpandMoreIcon/></Nav.Link>
+      <Nav.Link href="#link" id="nav_link">Partners<ExpandMoreIcon/></Nav.Link>
+      <Nav.Link href="#link" id="nav_link">Help and Advice<ExpandMoreIcon/></Nav.Link>
+      <Nav.Link href="#link" id="nav_link">Voom</Nav.Link>
     </Nav>
     <Button id="nav_button">Sign up</Button>
   </Navbar.Collapse>

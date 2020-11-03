@@ -6,43 +6,28 @@ import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 class Exams extends Component {
     render() {
         return (
-            <div className="container-fluid exams">
-                <h3 className="col-xs-12 col-md-6 mt-5 mb-5 p-5 " >Popular Exams</h3>
+            <div className="container exams">
+                <h3 className="col" style={{margin:"2em 0em",textAlign:"center"}}>Popular Packages</h3>
                 <div className="row">
-                    <div className="col-xs-12 col-md-3 mb-5">
+                    <div className="col-xs-12 col-md-4 mb-5">
                         <div className="examCard">
-                            <h1>JEE</h1>
-                            <h5 id="examContent"><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <p className="exam_bottom"><AttachMoneyIcon/>12000</p>
+                            <h1>Enterprise</h1>
+                            <h5 id="examContent"><AttachMoneyIcon/>200/perMonth</h5>
+                            <p className="exam_bottom">Proposal</p>
                         </div>
                     </div>
-                    <div className="col-xs-12 col-md-3 mb-5">
+                    <div className="col-xs-12 col-md-4 mb-5">
                     <div className="examCard">
-                    <h1>JEE</h1>
-                            <h5 id="examContent"><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <p className="exam_bottom"><AttachMoneyIcon/>12000</p>
+                    <h1>Silver Plan</h1>
+                            <h5 id="examContent"><AttachMoneyIcon/>75/perMonth</h5>
+                            <p className="exam_bottom">Proposal</p>
                         </div>
                     </div>
-                    <div className="col-xs-12 col-md-3 mb-5">
+                    <div className="col-xs-12 col-md-4 mb-5">
                     <div className="examCard">
-                    <h1>JEE</h1>
-                            <h5 id="examContent"><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <p className="exam_bottom"><AttachMoneyIcon/>12000</p>
-                        </div>
-                    </div>
-                    <div className="col-xs-12 col-md-3 mb-5">
-                    <div className="examCard">
-                    <h1>JEE</h1>
-                            <h5 id="examContent"><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <h5><DoneAllIcon/>Test Series</h5>
-                            <p className="exam_bottom"><AttachMoneyIcon/>12000</p>
+                    <h1>Gold Plan</h1>
+                    <h5 id="examContent"><AttachMoneyIcon/>100/perMonth</h5>
+                            <p className="exam_bottom">Proposal</p>
                         </div>
                     </div>
                 </div>

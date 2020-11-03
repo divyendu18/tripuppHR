@@ -4,8 +4,8 @@ import './States.css';
 class States extends Component {
     render() {
         return (
-            <div className="container-fluid states">
-                <h3 className="mt-5 p-5">Study Material of State Boards</h3>
+            <div className="container states">
+                <h3 className="mt-5 p-5">Unlimit your Business</h3>
                 <div className="row">
                     <div className="col-xs-12 col-md-4">
                         <div className="cardd mt-5 mb-5">

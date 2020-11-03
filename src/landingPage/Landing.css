@@ -1,25 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&family=Playfair+Display:wght@700&display=swap");
 #landingContainer {
   height: 80vh;
-  background: lightseagreen;
+  background: #1f6f8b;
   width: 100%;
   border-radius: 50px;
+  padding-top: 5em;
 }
 #landing_head {
   font-weight: 800;
-  font-size: 50px;
+  font-size: 4em;
   line-height: normal;
-  color: darkslateblue;
-  font-family: "Grandstander", cursive;
-  font-family: "Playfair Display", serif;
+  /* color: darkslateblue; */
+  /* font-family: "Grandstander", cursive;
+  font-family: "Playfair Display", serif; */
+
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  color: rgb(224, 224, 224);
 }
 #landing_content {
   font-weight: 300;
-  font-size: 25px;
+  font-size: 1.3em;
   line-height: normal;
-  color: black;
-  font-family: "Grandstander", cursive;
-  font-family: "Playfair Display", serif;
+
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  color: rgb(184, 184, 184);
 }
 .searchbox {
   background: white;
@@ -29,7 +35,11 @@
   border: none;
 }
 #btn {
-  background: blue;
+  background: #1c2b2d;
+  padding: 0.6em 1.3em;
+  border: none;
+  outline: none;
+  border-radius: 10px !important;
 }
 #img {
   margin-bottom: 20px;
@@ -37,8 +47,9 @@
 }
 .Icon {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  color: white;
 }
 .Icon > h5 {
-  font-size: 3em;
+  font-size: 2em;
 }

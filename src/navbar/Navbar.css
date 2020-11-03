@@ -3,30 +3,34 @@
 #nav {
   position: fixed;
   width: 100%;
-  background: paleturquoise;
+  background: #1c2b2d;
   z-index: 100;
 }
 
 #nav_brand {
   padding: 10px;
   margin-left: 3em;
-  color: orangered;
+  color: white;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-family: "Noto Serif", serif;
 }
 #nav_link {
   color: white;
-  font-family: "Noto Serif", serif;
-  color: orangered;
+  /* font-family: "Noto Serif", serif; */
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: normal;
 }
 #nav_button {
   background-color: lightgrey;
   border: none;
   cursor: pointer;
-  color: black;
-  font-family: "Noto Serif", serif;
-  color: orangered;
-  border-radius: 20px;
+  color: #1c2b2d;
+  /* font-family: "Noto Serif", serif; */
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  padding: 0.3em 1.5em;
+  margin: 0 0 0 1em;
 }
 #nav_button:hover {
   padding: 10px;

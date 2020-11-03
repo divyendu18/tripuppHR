@@ -5,51 +5,39 @@ class Subjects extends Component {
     render() {
         return (
             <div className="container-fluid subjects">
-                <h3 className="mt-5 p-5">Learn with Edutech...</h3>
+                <p className="mt-3">Best SEO Company in India</p>
+                <h3>Why US for SEO Services ?</h3>
                 <div className="row">
                     <div className="col-xs-12 col-md-4">
                         <div className="subCard">
                             <div className="subCard__top">
-                                <img src="https://i.pinimg.com/originals/00/c5/37/00c537bdf08547f031540521892e5aa7.gif" alt="" 
-                                className="img"/>
-                                <h4>Coding</h4>
+                                <h4>Monthly Reporting</h4>
                             </div>
                             <div className="subCard__middle">
-                                <h5>Concentration and logical thinking</h5>
-                                <h5>Concentration and logical thinking</h5>
-                            </div>
-                            <div className="subCard__bottom">
-                                <h5>Explore Coding</h5>
+                                <p>We share montly activity sheets that mention each and everything we do for your brand. 
+                                    This keeps you in check about what's being done on your website.</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-xs-12 col-md-4">
                     <div className="subCard">
                     <div className="subCard__top">
-                                <img src="https://thumbs.gfycat.com/SpottedHoarseInvisiblerail-max-1mb.gif" alt="" 
-                                className="img"/>
-                                <h4>Science</h4>
+                                <h4>Solid Privacy</h4>
                             </div>
                             <div className="subCard__middle">
-                                <h5>Concentration and logical thinking</h5>
-                                <h5>Concentration and logical thinking</h5>
-                            </div>
-                            <div className="subCard__bottom">
-                                <h5>Explore Science</h5>
+                                <p>Other SEO Companies share link reports / keywords publically with new clients or in social media groups. 
+                                    We take privacy very seriously and don't share any client info.</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-xs-12 col-md-4">
                     <div className="subCard">
                             <div className="subCard__top">
-                                <h4>Maths</h4>
+                                <h4>Track Record</h4>
                             </div>
                             <div className="subCard__middle">
-                                <h5>Concentration and logical thinking</h5>
-                                <h5>Concentration and logical thinking</h5>
-                            </div>
-                            <div className="subCard__bottom">
-                                <h5>Explore Maths</h5>
+                               <p>We've worked with more than 100 small-mid sized businesses and have helped them boost their traffic, 
+                                   leads, sign-ups, trials, sales and much more. We can do that for you too !</p>
                             </div>
                         </div>
                     </div>
